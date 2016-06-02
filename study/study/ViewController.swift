@@ -17,9 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.tabBarController?.tabBar.tintColor = UIColor.blueColor();
         
-        baritem0.title = "首页"
-        baritem1.title = "分类"
+       
+        self.tabBarItem.title = "test1"
         
     }
 
